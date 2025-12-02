@@ -1,0 +1,13 @@
+global:
+ message: Learning kafka, kubernetes, resilience4j etc.
+logging:
+ level:
+  root: INFO
+management:
+ endpoints:
+  web:
+   exposure:
+    include: health, info, refresh
+ endpoint:
+  health: 
+   show-details: always
